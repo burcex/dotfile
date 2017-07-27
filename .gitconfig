@@ -1,1 +1,12 @@
-/home/xiaoguanjun/.gitconfig
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  ui = true
+  pager = true
+[user]
+	name = xiaoguanjun
+	email = xiaoguanjun@le.com
+[core]
+	excludesfile = /home/xiaoguanjun/.gitignore_global
