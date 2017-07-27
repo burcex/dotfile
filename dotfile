@@ -1,0 +1,5 @@
+#!/bin/bash
+config=".tmux.conf .vimrc .zshrc .gitconfig"
+for i in $config;
+do ln -fs ~/$i $i;
+done;
